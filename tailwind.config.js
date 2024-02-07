@@ -10,6 +10,7 @@ export default {
       backgroundColor: {
         "hsl-244-86-59": "hsl(244, 86%, 59%)",
         "hover-hsl-342-100-50": "hsl(342, 100%, 50%)", 
+        'hsl-0-0-100': 'hsl(0, 0%, 100%)'
       },
     },
   },

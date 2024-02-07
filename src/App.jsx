@@ -5,9 +5,12 @@ import "./App.css";
 import Nav from './Com/Nav'
 function App() {
   return (
-    <>
-      <Nav/>
-    </>
+ <>
+ 
+ <Nav/>
+ </>
+   
+ 
   );
 }
 
