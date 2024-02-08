@@ -35,8 +35,8 @@ const Features = () => {
       },
   ]);
   return (
-    <React.Fragment>
-      <div className="flex flex-col items-center mt-16  ">
+    <React.Fragment >
+      <div className="flex flex-col items-center mt-16 bg-white  ">
         <p className="text-hsl-219-13-44 text-xl ">How Can Help You</p>
         <h2 className="font-semibold text-hsl-224-48-22 text-5xl xl:max-w-5xl my-4">
           We’re helping teams <br /> do their best work
