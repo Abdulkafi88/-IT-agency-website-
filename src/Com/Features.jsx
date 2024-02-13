@@ -10,7 +10,7 @@ const Features = () => {
       img: FeaturedIcon,
       des: `       Lorem ipsum dolor sit amet, <br /> conse ctetur adipiscing elit,
         <br /> Sed est non feugiat sagittis,`,
-      learnMore: "Learn More >",
+      learnMore: "Learn More  >",
     },
     {
         title: " Code Security",
@@ -24,7 +24,7 @@ const Features = () => {
         img: FeaturedIcon3,
         des: `       Lorem ipsum dolor sit amet, <br /> conse ctetur adipiscing elit,
           <br /> Sed est non feugiat sagittis,`,
-        learnMore: "Learn More >",
+        learnMore: "Learn More  >",
       },
     {
         title: " Access Controlled",
@@ -44,7 +44,7 @@ const Features = () => {
       </div>
       <div className=" flex ml-40 mt-20 ">
         {featursList.map((list, index) => (
-          <div key={index} className="ml-20 space-y-3">
+          <div key={index} className="ml-14 space-y-3">
             <img src={list.img} alt="logo" />
             <h3 className="text-2xl font-bold text-hsl-224-48-22">
               {list.title}
