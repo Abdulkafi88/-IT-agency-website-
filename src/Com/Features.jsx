@@ -35,7 +35,7 @@ const Features = () => {
       },
   ]);
   return (
-    <React.Fragment >
+    <React.Fragment>
       <div className="flex flex-col items-center mt-16 bg-white  ">
         <p className="text-hsl-219-13-44 text-xl ">How Can Help You</p>
         <h2 className="font-semibold text-hsl-224-48-22 text-5xl xl:max-w-5xl my-4">
@@ -53,14 +53,14 @@ const Features = () => {
               className=" font-serif text-hsl-219-13-44 text-md space-x-2 text-lg"
               dangerouslySetInnerHTML={{ __html: list.des }}
             />
-            <span className=" text-hsl-342-100-50 text-lg  text-xl mt-2">
+            <span className=" text-hsl-342-100-50 text-lg  text-sl mt-2 font-bold hover:text-hover-hsl-224-48-22 translate ease-in cursor-pointer ">
               {list.learnMore}
             </span>
           </div>
         ))}
       </div>
     </React.Fragment>
-  );
+  )
 };
 
 export default Features;
