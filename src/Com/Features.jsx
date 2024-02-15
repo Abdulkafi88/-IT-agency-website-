@@ -53,7 +53,7 @@ const Features = () => {
               className=" font-serif text-hsl-219-13-44 text-md space-x-2 text-lg"
               dangerouslySetInnerHTML={{ __html: list.des }}
             />
-            <span className=" text-hsl-342-100-50 text-lg  text-xl mt-2">
+            <span className=" text-hsl-342-100-50 text-xl mt-2">
               {list.learnMore}
             </span>
           </div>
