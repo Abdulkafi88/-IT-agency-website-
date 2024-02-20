@@ -6,6 +6,7 @@ import Nav from "./Com/Nav";
 import Home from "./Com/Home";
 import Features from "./Com/Features";
 import Services from "./Com/Services"
+import News from "./Com/News"
 function App() {
   return (
     <>
@@ -13,6 +14,7 @@ function App() {
       <Home />
       <Features />
       <Services />
+      <News />
     </>
   )
 }
