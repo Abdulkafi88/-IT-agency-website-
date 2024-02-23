@@ -20,16 +20,26 @@ const News = () => {
       </div>
       <div className=" flex ">
         {info.map((content, contentIndex) => (
-          <>
-          <div className=" flex">
-            <div className="">
-                <img src={content.img} alt="" />
+          <div className="flex">
+            <div className="ml-20 mt-10 bg-red-900 w-80">
+              <div >
+                <img width={'100%'} src={content.img} alt="" />
+              </div>
+              <div className="flex ">
                 <p>{content.tec}</p>
+                <p className="ml-14">{content.tec}</p>
+              </div>
+            </div>
+            <div className="ml-20 mt-10 bg-red-900">
+              <div >
+                <img width={'40%'} src={content.img} alt="" />
+              </div>
+              <div className="flex ">
                 <p>{content.tec}</p>
+                <p className="ml-14">{content.tec}</p>
+              </div>
             </div>
           </div>
-          
-          </>
         ))}
       </div>
     </React.Fragment>
